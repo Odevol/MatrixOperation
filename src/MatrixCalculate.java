@@ -2,14 +2,14 @@ public class MatrixCalculate {
 
     public static void main(String[] args) {
         Matrix matrixA = new Matrix();
-        matrixA.n = 3;
-        matrixA.m = 3;
-        matrixA.massive = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        matrixA.n = 2;
+        matrixA.m = 2;
+        matrixA.massive = new int[][]{{1, 2}, {4, 5}};
 
         Matrix matrixB = new Matrix();
-        matrixB.n = 3;
-        matrixB.m = 3;
-        matrixB.massive = new int[][]{{1, 2, 3}, {1, 2, 3}, {1, 2, 3}};
+        matrixB.n = 2;
+        matrixB.m = 2;
+        matrixB.massive = new int[][]{{1, 2}, {1, 2}};
 
         Matrix matrixResult = new Matrix();
         Matrix matrixSquare = new Matrix();
